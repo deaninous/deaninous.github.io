@@ -1,7 +1,10 @@
-div, h1, h2,h3, section{
+h1, h2,h3{
 	color: white;
 	text-align: center;
 
+}
+section{
+	color: white;
 }
 main{
 	background-color: black;
@@ -65,5 +68,8 @@ main{
 
 body{
 	background: url("../img/ultimate-bike.jpeg");
+}
+html{
+	width: 100%;
 }
 
