@@ -1,13 +1,13 @@
-div, h1, h3, section{
+div, h1, h2,h3, section{
 	color: white;
+	text-align: center;
+
 }
 main{
 	background-color: black;
 	padding: 2% 5% 0% 5%;
 }
-h1, h3{
-	text-align: center;
-}
+
 /* li magic courtesy of stack overflow!! */
 li{
 	display: inline-block;
