@@ -1,0 +1,1 @@
+This is a challenge handed by The Knowledge Hause. It is basically a presentation of myself, my goals, hobbies and activities. Wish me luck!!!
