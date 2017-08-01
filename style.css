@@ -1,5 +1,5 @@
 html, body{
-	background-color: rgb(105, 105, 105);
+font-family: 'Play', sans-serif;	
 }
 /* Targetting small devices
  */
@@ -46,6 +46,7 @@ ul:after{
 a{
 	text-decoration: none;
 	border-radius: 10%;
+	color: inherit;
 }
 
 /* A section is to use all the space made available to it */
