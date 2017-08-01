@@ -20,3 +20,11 @@ section{
 body{
 	background-color: rgb();
 }
+img{
+	display: block;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+main{
+	margin: 5% 20%;
+}
