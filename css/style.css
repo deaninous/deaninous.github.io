@@ -1,11 +1,11 @@
-html, body{
-	background-color: rgb(105, 105, 105);
+div, h1, h3, section{
+	color: white;
 }
 main{
-	background-color: white;
+	background-color: black;
 	padding: 2% 5% 0% 5%;
 }
-h1{
+h1, h3{
 	text-align: center;
 }
 /* li magic courtesy of stack overflow!! */
@@ -49,9 +49,7 @@ section{
 	line-height: 2em;
 }
 /* Finaly not using this  */
-body{
-	background-color: rgb();
-}
+
 /* Center the image */
 img{
 	display: block;
@@ -61,4 +59,11 @@ img{
 /* Give it a gutter */
 main{
 	margin: 1% 20%;
+	opacity: .9;
 }
+
+
+body{
+	background: url("../img/ultimate-bike.jpeg");
+}
+

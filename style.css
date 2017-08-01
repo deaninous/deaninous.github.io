@@ -5,7 +5,7 @@ main{
 	background-color: white;
 	padding: 2% 5% 0% 5%;
 }
-h1{
+h1, h3{
 	text-align: center;
 }
 /* li magic courtesy of stack overflow!! */
@@ -61,4 +61,11 @@ img{
 /* Give it a gutter */
 main{
 	margin: 1% 20%;
+}
+
+
+
+
+body{
+	background: url("/img/ultimate-bike.jpeg");
 }
