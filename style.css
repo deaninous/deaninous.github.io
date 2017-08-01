@@ -1,6 +1,12 @@
 html, body{
 	background-color: rgb(105, 105, 105);
 }
+/* Targetting small devices
+ */
+ @-ms-viewport{
+	width: device-width;
+ }
+
 main{
 	background-color: white;
 	padding: 2% 5% 0% 5%;
