@@ -1,0 +1,64 @@
+html, body{
+	background-color: rgb(105, 105, 105);
+}
+main{
+	background-color: white;
+	padding: 2% 5% 0% 5%;
+}
+h1{
+	text-align: center;
+}
+/* li magic courtesy of stack overflow!! */
+li{
+	display: inline-block;
+}
+section ul{
+	text-align: justify;
+
+}
+ul:after{
+	content: ' ';
+	display: inline-block;
+	width: 100%;
+	height: 0;
+}
+#waypoint{
+	position: relative;
+}
+#waypoint > ul{
+	position: fixed;
+	top: 0;
+}
+#waypoint>ul>a>li{
+	margin-right: 2em;
+	margin-left: 2em;
+	color: wheat;
+	background-color: black;
+	opacity: .3;
+}
+/* Alert: Still got to find out where I am going with this; */
+a{
+	text-decoration: none;
+	border-radius: 10%;
+}
+
+/* A section is to use all the space made available to it */
+section{
+	height: 100%;
+	width: 100%;
+	line-height: 2em;
+}
+/* Finaly not using this  */
+body{
+	background-color: rgb();
+}
+/* Center the image */
+img{
+	display: block;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+/* Give it a gutter */
+main{
+	margin: 1% 20%;
+}
